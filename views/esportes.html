@@ -1,0 +1,15 @@
+{% for esporte in esportes %}
+<div class="ideia">
+    <img src="{{esporte.imagem}}" alt="Imagem representativa de {{esporte.nome}}">
+    <div class="conteudoIdeia">
+        <h3>{{esporte.titulo}}</h3>
+        <p id="categoria">
+            {{esporte.categoria}}
+        </p>
+        <p id="descricao">
+            {{esporte.descricao}}
+        </p>
+    </div>
+    <button class="botaoExcluir" data-id="{{esporte.id}}">X</button>
+</div>
+{% endfor %}

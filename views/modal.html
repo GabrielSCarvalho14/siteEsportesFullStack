@@ -1,0 +1,33 @@
+<!-- Modal -->
+<div id="modal" class="hide">
+    <div id="conteudo">
+        <h1>Novo esporte</h1>
+        <form action="/" method="POST" onsubmit="return checarCampos(event)" enctype="multipart/form-data">
+            <div class="input-wrapper">
+                <label for="tituloEsp">Nome do esporte:</label>
+                <input type="text" name="titulo" id="">
+            </div>
+            <div class="input-wrapper">
+                <label for="categorias">Categoria do esporte:</label>
+                <select id="categoriaEsporte" onchange="removerPrimeiraOpcao()" name="categoria">
+                    <option value="" disabled selected>Selecione aqui</option>
+                    <option value="Em Quadra (Espaço Fechado ou Aberto)">Em Quadra (Espaço Fechado ou Aberto)</option>
+                    <option value="Em Academia (Espaço Fechado)">Em Academia (Espaço Fechado)</option>
+                    <option value="Em Parque (Ar Livre ou Semi-aberto)">Em Parque (Ar Livre ou Semi-aberto)</option>
+                    <option value="Ar Livre (Ruas, Praças, Pontes, Muros)">Ar Livre (Ruas, Praças, Pontes, Muros)</option>
+                    <option value="Espaço fechado (Outros Locais Específicos)">Espaço fechado (Outros Locais Específicos)</option>
+                </select>
+            </div>
+            <div class="input-wrapper">
+                <label for="descricaoEsp">Descrição do esporte:</label>
+                <textarea name="descricao" cols="30" rows="4"></textarea>
+            </div>
+            <div class="input-wrapper">
+                <label for="imgEsp">Link da imagem:</label>
+                <input type="file" name="imagem" id="imgEsp" accept="image/*">
+            </div>
+            <a id="voltar" onclick="onOff()">Voltar</a>
+            <button>Salvar</button>
+        </form>
+    </div>
+</div>
