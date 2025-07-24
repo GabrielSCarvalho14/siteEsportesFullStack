@@ -1,2 +1,2 @@
 # siteEsportesFullStack
-Esse projeto pessoal eu criei durante o curso gratuito "Desenvolvimento Web" da RocketSeat, onde nele eu criei um site onde pode colocar os esportes urbanos que o usuário conheça ou goste.
+Esse projeto pessoal eu criei durante o curso gratuito "Desenvolvimento Web" da RocketSeat, onde nele eu criei um site onde pode colocar os esportes urbanos que o usuário conheça ou goste. As tecnologias utilizadas foram HTML, CSS, Javascript no Front-end e Node.js para o Back-end. Para rodar o site utilize o comando "node server.js" no seu terminal e então abra a porta local de número 3000.
