@@ -34,9 +34,5 @@ Com as dependências instaladas, utilize o comando abaixo para iniciar o servido
 node server.js
 ```
 
-O servidor será iniciado e você poderá acessá-lo no seu navegador através do endereço:
-<<<<<<< HEAD
+O servidor será iniciado e você poderá acessá-lo no seu navegador através do endereço: 
 http://localhost:3000
-=======
-http://localhost:3000
->>>>>>> 6867d7b7133f3ceaf0d40c828c071c4e3b68698c
