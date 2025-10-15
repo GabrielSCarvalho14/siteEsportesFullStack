@@ -15,10 +15,8 @@ Certifique-se de que o **Node.js** e o **npm** (Gerenciador de Pacotes do Node.j
     node -v
     npm -v
     ```
-* **Download:** Se você precisar instalar o Node.js, baixe o instalador (versão LTS recomendada) no site oficial:
-    ```
-    [https://nodejs.org/en/download](https://nodejs.org/en/download)
-    ```
+* **Download:** Se você precisar instalar o Node.js, baixe o instalador (versão LTS recomendada) no site oficial: https://nodejs.org/pt/download
+    
 
 ### 2. Instalação das Dependências
 
