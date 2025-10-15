@@ -1,8 +1,8 @@
-# Site Full Stack de Esportes
+# 🚀 Site Full Stack de Esportes
 
 Esse projeto pessoal eu criei durante o curso gratuito "Desenvolvimento Web" da RocketSeat, onde nele eu criei um site onde pode colocar os esportes urbanos que o usuário conheça ou goste. As tecnologias utilizadas foram HTML, CSS, Javascript no Front-end e Node.js para o Back-end.
 
-## 🚀 Guia de Instalação e Execução
+## Guia de Instalação e Execução
 
 Este projeto é um servidor web simples construído com Node.js, Express e SQLite.
 
